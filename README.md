@@ -1,6 +1,14 @@
 # Safety-AI
 It's a safe and free , security AI.
 
+
+
+
+
+
+
+bot.py:   (file name)
+
 import discord
 from discord.ext import commands
 import os
@@ -214,3 +222,55 @@ if __name__ == '__main__':
     else:
         print("🚀 Bot başlatılıyor...")
         bot.run(DISCORD_TOKEN)
+
+
+
+requirements.txt: (file name)
+
+
+discord.py==2.3.2
+python-dotenv==1.0.0
+requests==2.31.0
+Pillow==10.2.0
+ultralytics==8.0.196
+opencv-python==4.8.1.78
+torch==2.1.0
+torchvision==0.16.0
+
+
+.gitignore:  (file name)
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.env
+venv/
+env/
+*.log
+.DS_Store
+
+.env :     (file name)
+
+
+DISCORD_TOKEN("Your Discord TOKEN")
+
+
+FİNİSH(<--Do not write finish )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
